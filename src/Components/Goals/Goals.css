@@ -1,0 +1,11 @@
+.goal {
+	display: flex;
+	background: #f0f0f0;
+	border-radius: 20px;
+	padding: 60px 140px 60px 60px;
+	margin-bottom: 90px;
+
+	a {
+		width: 150px;
+	}
+}

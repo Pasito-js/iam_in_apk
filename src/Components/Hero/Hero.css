@@ -1,0 +1,41 @@
+.hero {
+	margin-bottom: 90px;
+}
+
+.main {
+	display: flex;
+}
+
+.main__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 108px;
+
+	h2 {
+		font-size: 60px;
+		font-weight: 600;
+		margin-bottom: 35px;
+		width: 530px;
+	}
+
+	p {
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 35px;
+		width: 500px;
+	}
+
+	a {
+		color: #fff;
+		padding: 20px 35px;
+		background: #000;
+		border-radius: 15px;
+		width: 264px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	a:hover {
+		transform: scale(1.1);
+	}
+}

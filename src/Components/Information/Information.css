@@ -1,0 +1,47 @@
+
+.block-news {
+	background: #191A23;
+	border-radius: 30px;
+}
+
+.list-news {
+	display: flex;
+}
+
+.block__new {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 70px 60px;
+	position: relative;
+
+	/*border-right: 1px solid gray;*/
+
+	p {
+		color: #ffffff;
+		width: 300px;
+		height: 115px;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		color: #B9FF66;
+	}
+}
+
+.block__new::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	width: 2px;
+	height: 200px;
+	background-color: gray;
+}
+
+.block__new:last-child::after {
+	width: 0;
+}
