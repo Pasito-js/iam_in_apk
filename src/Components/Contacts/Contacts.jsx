@@ -1,8 +1,14 @@
 import './Contacts.css';
 
 const Contacts = () => {
+	
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		alert('Спасибо за обратную связь!')
+	};
+	
 	return (
-		<div>
+		<div id='contacts'>
 			<div className="container">
 				
 				<div className="refs__text">
@@ -11,7 +17,7 @@ const Contacts = () => {
 				</div>
 				
 				<div className="block-contact">
-					<form>
+					<form onSubmit={handleSubmit}>
 						<label htmlFor="name">Имя</label>
 						<input type="text" name="name" placeholder="Михаил"/>
 						

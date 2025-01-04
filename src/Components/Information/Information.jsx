@@ -2,7 +2,7 @@ import './Information.css';
 
 const Information = () => {
 	return (
-		<div>
+		<div id='information'>
 			<div className="container">
 				<div className="refs__text">
 					<h2 className="title-2">Информация:</h2>

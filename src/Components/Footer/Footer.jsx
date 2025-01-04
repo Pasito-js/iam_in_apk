@@ -1,5 +1,6 @@
 import './Footer.css';
 import {FaTelegram, FaVk} from 'react-icons/fa6';
+import {Link} from 'react-scroll';
 
 const Footer = () => {
 	return (
@@ -9,15 +10,21 @@ const Footer = () => {
 				<nav className="footer-header">
 					<ul className="logotype">
 						<img src="/logo.png" width={80} height={80} alt="Logotype"/>
-						<a href="#">Я в АПК</a>
+						<Link className='refs__link-title' to="home" smooth={true} offset={-150} style={{cursor: 'pointer'}}
+						      duration={1000}>Я в АПК</Link>
 					</ul>
 					
 					<ul className="footer-refs">
-						<li><a className="ref__link" href="#">Ссылки</a></li>
-						<li><a className="ref__link" href="#">Цель</a></li>
-						<li><a className="ref__link" href="#">Авторы</a></li>
-						<li><a className="ref__link" href="#">Информация</a></li>
-						<li><a className="ref__link" href="#">Обратная связь</a></li>
+						<li><Link className="ref__link" to="refs" smooth={true}
+						          duration={1000} offset={-150}>Ссылки</Link></li>
+						<li><Link className="ref__link" to="goals" smooth={true}
+						          duration={1000} offset={-150}>Цель</Link></li>
+						<li><Link className="ref__link" to="about-us" smooth={true}
+						          duration={1000} offset={-150}>Авторы</Link></li>
+						<li><Link className="ref__link" to="information" smooth={true}
+						          duration={1000} offset={-150}>Информация</Link></li>
+						<li><Link className="ref__link" to="contacts" smooth={true}
+						          duration={1000} offset={-150}>Обратная связь</Link></li>
 						
 						<li><a className="ref__link-social" href="#"><FaTelegram
 							className="social"/></a></li>

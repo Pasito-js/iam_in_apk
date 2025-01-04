@@ -3,7 +3,7 @@ import RefCard from './RefCard.jsx';
 
 const Refs = () => {
 	return (
-		<section>
+		<section id='refs'>
 			<div className="container">
 				<div className="refs__text">
 					<h2 className="title-2">Ссылки:</h2>
@@ -27,7 +27,7 @@ const Refs = () => {
 							titleBg={'white'}
 							textBg={'white'}
 							previewImg={'/AgroCulture_IMG/cart_with_food.png'}
-							bg={'black'}
+							bg={'wheat'}
 							arr={'/white_arrow.png'}
 						/>
 					</li>

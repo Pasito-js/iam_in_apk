@@ -7,8 +7,13 @@ footer {
 	text-align: center;
 	margin: 0 auto;
 
-	nav {
-		margin-bottom: 60px;
+	.footer-header {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-bottom: 90px;
 	}
 
 	a, p {
@@ -67,6 +72,7 @@ footer {
 }
 
 .ref__link {
+	cursor: pointer;
 	transition: all .3s linear;
 }
 

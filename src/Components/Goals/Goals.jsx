@@ -2,7 +2,7 @@ import './Goals.css';
 
 const Goals = () => {
 	return (
-		<div>
+		<div id='goals'>
 			<div className="container">
 				<div className="goal">
 					<div className="main__text">

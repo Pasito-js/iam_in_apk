@@ -3,7 +3,7 @@ import SeoSpecialistCard from '../Card/SeoSpecialistCard .jsx';
 
 const AboutUs = () => {
 	return (
-		<div className="aboutUs">
+		<div className="aboutUs" id='about-us'>
 			<div className="container">
 				<h2 className="title-2">Авторы сайта:</h2>
 				<ul className="list-cards">
@@ -13,7 +13,7 @@ const AboutUs = () => {
 						job='Ученик, создание сайтов'
 						avatar='/logo.png'
 						experience="Разработка сайтов, автор проекта..."
-						skills={['React', 'Router']}
+						skills={['JavaScript', 'React', 'Router', ]}
 					/>
 					</li>
 					
