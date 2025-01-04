@@ -33,9 +33,9 @@ nav {
 	column-gap: 20px;
 }
 
+
 .refs__link {
 	transition: all .3s linear ;
-	border-bottom: 1px solid transparent;
 }
 
 .refs__link:hover {

@@ -10,9 +10,9 @@ const AboutUs = () => {
 					<li>
 						<SeoSpecialistCard
 						name="Константин Чичинюк"
-						job='Ученик, создатель сайта'
+						job='Ученик, создание сайтов'
 						avatar='/logo.png'
-						experience="Создание сайтов, автор проекта..."
+						experience="Разработка сайтов, автор проекта..."
 						skills={['React', 'Router']}
 					/>
 					</li>

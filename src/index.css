@@ -17,3 +17,17 @@ a {
 	margin: 0 auto;
 	padding: 0 50px;
 }
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+

@@ -4,6 +4,10 @@
 
 .main {
 	display: flex;
+
+	img {
+		border-radius: 50%;
+	}
 }
 
 .main__text {
@@ -38,4 +42,6 @@
 	a:hover {
 		transform: scale(1.1);
 	}
+
+
 }

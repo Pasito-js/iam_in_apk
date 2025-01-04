@@ -12,7 +12,7 @@ const Goals = () => {
 						<a href="#">Викторина</a>
 					</div>
 					
-					<img src="/goals_demo.png" alt="goal"/>
+					<img src="/AgroCulture_IMG/cow.png" height={500} alt="goal"/>
 				</div>
 			</div>
 		</div>

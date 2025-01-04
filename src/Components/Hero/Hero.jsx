@@ -7,13 +7,11 @@ const Hero = () => {
 				<div className="main">
 					<ul className="main__text">
 						<h2>Проект: Я в АПК</h2>
-						<p>Our digital marketing agency helps businesses grow and succeed
-							online through a range of services including SEO, PPC, social
-							media marketing, and content creation.</p>
+						<p>Добро пожаловать на сайт - Я а АПК. Здесь вы можете узнать новую информацию связанную с АПК в России, пройти викторину и профиориентацию!</p>
 						<a href="#">Пройти профориентацию</a>
 					</ul>
 					
-					<img src="/hero.png" alt=""/>
+					<img src="/AgroCulture_IMG/combine.png" alt=""/>
 				</div>
 			</div>
 		</div>

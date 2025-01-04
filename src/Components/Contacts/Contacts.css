@@ -1,0 +1,68 @@
+
+
+
+
+.block-contact {
+	width: 1240px;
+	height: 770px;
+	background: #f0f0f0;
+	border-radius: 25px;
+	margin-bottom: 200px;
+
+	display: flex;
+
+	form {
+		padding: 60px 100px;
+		display: flex;
+		flex-direction: column;
+
+
+
+		label {
+			margin-bottom: 10px;
+		}
+
+		input {
+			width: 550px;
+			border: 1px solid #000000;
+			padding: 18px 20px;
+			border-radius: 10px;
+			margin-bottom: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		input:hover {
+			background: #ececec;
+		}
+
+		textarea {
+			resize: none;
+			width: 550px;
+			height: 190px;
+			border: 1px solid #000000;
+			padding: 18px 20px;
+			border-radius: 10px;
+			margin-bottom: 40px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		textarea:hover {
+			background: #ececec;
+		}
+
+		button {
+			width: 550px;
+			height: 68px;
+			background: #000;
+			border-radius: 25px;
+			color: #fff;
+			padding: 20px 200px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		button:hover {
+			transform: scale(1.1);
+		}
+	}
+}

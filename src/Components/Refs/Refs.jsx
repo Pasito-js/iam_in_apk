@@ -7,8 +7,7 @@ const Refs = () => {
 			<div className="container">
 				<div className="refs__text">
 					<h2 className="title-2">Ссылки:</h2>
-					<p>At our digital marketing agency, we offer a range of services to
-						help businesses grow and succeed online. These services include:</p>
+					<p>Здесь можно ознакомиться со всеми разделами нашего сайта:</p>
 				</div>
 				
 				<ul className='refs-links'>
@@ -27,24 +26,24 @@ const Refs = () => {
 							title={'Профориентация'}
 							titleBg={'white'}
 							textBg={'white'}
-							previewImg={'/demo.png'}
+							previewImg={'/AgroCulture_IMG/cart_with_food.png'}
 							bg={'black'}
 							arr={'/white_arrow.png'}
 						/>
 					</li>
 					<li>
 						<RefCard
-							title={'Викторина'}
+							title={'АО Гатчинское'}
 							titleBg={'white'}
 							textBg={'black'}
-							previewImg={'/quiz.png'}
+							previewImg={'/AgroCulture_IMG/tractor.png'}
 							bg={'#B9FF66'}
 							arr={'/black_arrow.png'}
 						/>
 					</li>
 					<li>
 						<RefCard
-							title={'Профориентация'}
+							title={'Агрокласс'}
 							titleBg={'white'}
 							textBg={'white'}
 							previewImg={'/demo.png'}
