@@ -1,8 +1,9 @@
+import QuizHome from '../Components/Quiz/QuizHome/QuizHome.jsx';
 
 const Quiz = () => {
 	return (
 		<div>
-			<a href="/">quiz go back</a>
+			<QuizHome />
 		</div>
 	);
 };

@@ -29,6 +29,7 @@
 		align-items: center;
 		gap: 10px;
 		color: #B9FF66;
+		transition: all 0.3s ease-in-out;
 	}
 }
 
@@ -45,4 +46,8 @@
 
 .block__new:last-child::after {
 	width: 0;
+}
+
+.news__ref:hover {
+	color: #64c806;
 }

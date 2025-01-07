@@ -1,8 +1,20 @@
 import './Goals.css';
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Goals = () => {
+	
+	useEffect(() => {
+		AOS.init({
+			duration: 1000,
+		})
+	}, []);
+	
 	return (
-		<div id='goals'>
+		<div id='goals' data-aos="fade-zoom-in"
+		     data-aos-easing="ease-in-back"
+		     data-aos-offset="0">
 			<div className="container">
 				<div className="goal">
 					<div className="main__text">

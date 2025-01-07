@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	color: #000;
 	font-family: 'Space Grotesk', sans-serif;
+	list-style: none;
 }
 
 a {

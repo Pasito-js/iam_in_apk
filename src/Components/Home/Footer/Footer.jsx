@@ -1,10 +1,20 @@
 import './Footer.css';
 import {FaTelegram, FaVk} from 'react-icons/fa6';
 import {Link} from 'react-scroll';
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+	
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		})
+	}, [])
+	
 	return (
-		<footer>
+		<footer data-aos="fade-up">
 			<div className="container">
 				
 				<nav className="footer-header">

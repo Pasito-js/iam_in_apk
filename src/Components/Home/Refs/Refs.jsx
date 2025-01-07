@@ -1,17 +1,28 @@
 import './Refs.css';
 import RefCard from './RefCard.jsx';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from 'react';
+
 
 const Refs = () => {
+	
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		})
+	}, [])
+	
 	return (
-		<section id='refs'>
+		<section id='refs' >
 			<div className="container">
 				<div className="refs__text">
 					<h2 className="title-2">Ссылки:</h2>
 					<p>Здесь можно ознакомиться со всеми разделами нашего сайта:</p>
 				</div>
 				
-				<ul className='refs-links'>
-					<li>
+				<ul className='refs-links' >
+					<li data-aos="fade-right">
 						<RefCard
 							title={'Викторина'}
 							titleBg={'lawngreen'}
@@ -21,7 +32,7 @@ const Refs = () => {
 							arr={'/black_arrow.png'}
 						/>
 					</li>
-					<li>
+					<li data-aos="fade-left">
 						<RefCard
 							title={'Профориентация'}
 							titleBg={'white'}
@@ -31,7 +42,7 @@ const Refs = () => {
 							arr={'/white_arrow.png'}
 						/>
 					</li>
-					<li>
+					<li data-aos="fade-right">
 						<RefCard
 							title={'АО Гатчинское'}
 							titleBg={'white'}
@@ -41,7 +52,7 @@ const Refs = () => {
 							arr={'/black_arrow.png'}
 						/>
 					</li>
-					<li>
+					<li data-aos="fade-left">
 						<RefCard
 							title={'Агрокласс'}
 							titleBg={'white'}

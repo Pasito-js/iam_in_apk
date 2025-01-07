@@ -3,6 +3,7 @@ import './RefCard.css';
 const RefCard = ({title, previewImg, titleBg, textBg, bg, arr}) => {
 	//TODO: реализовать на <a 'more_info'> возможность перейти на викторину при помощи Router
 	
+	
 	return (
 		<div className="RefCard">
 			<div className="card" style={{background: bg}}>
