@@ -5,9 +5,10 @@ import Quiz from '../Quiz.jsx';
 
 
 const EasyQuiz = () => {
+	
 	return (
 		<div>
-			<QuizHeader show={false} />
+			<QuizHeader/>
 			<Quiz/>
 			<QuizFooter />
 		</div>

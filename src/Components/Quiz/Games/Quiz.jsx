@@ -3,24 +3,54 @@ import {useState} from 'react';
 
 const questions = [
 	{
-		question: '5 > 2',
+		question: 'Россия является одним из крупнейших производителей пшеницы в мире.',
 		img: '/black_arrow.png',
 		correct: 1
 	},
 	{
-		question: '3 + 3 = 9',
+		question: 'В России нет программы по поддержке сельского хозяйства.',
 		img: '/black_arrow.png',
 		correct: 0
 	},
 	{
-		question: '8 - 2 = 7',
+		question: 'Сельское хозяйство в России занимает более 20% от общего ВВП.',
 		img: '/black_arrow.png',
 		correct: 0
 	},
 	{
-		question: '7 < 8',
+		question: 'Крупнейшими регионами по производству картофеля в России являются Центральный и Северо-Западный федеральные округа.',
 		img: '/black_arrow.png',
 		correct: 1
+	},
+	{
+		question: 'В России активно развиваются органические фермерства.',
+		img: '/black_arrow.png',
+		correct: 1
+	},
+	{
+		question: 'Молочная продукция составляет основную часть экспорта России.',
+		img: '/black_arrow.png',
+		correct: 0
+	},
+	{
+		question: 'В России производится более 30 миллионов тонн мяса в год.',
+		img: '/black_arrow.png',
+		correct: 1
+	},
+	{
+		question: 'Традиционными культурами для России являются рис и кофе.',
+		img: '/black_arrow.png',
+		correct: 0
+	},
+	{
+		question: 'Государственная программа развития сельского хозяйства была принята на 2013-2020 годы.',
+		img: '/black_arrow.png',
+		correct: 1
+	},
+	{
+		question: 'Россия полностью обеспечивает себя продовольствием и не нуждается в импорте.',
+		img: '/black_arrow.png',
+		correct: 0
 	}
 ];
 
@@ -69,19 +99,19 @@ const Quiz = () => {
 	};
 	
 	return (
-		<section style={{marginTop: '30px'}}>
+		<section className="quiz" style={{marginTop: '30px'}}>
 			<div className="container">
 				<img src={questionImg} alt="question-img"/>
-				<div className="quiz">
+				<div>
 					<div className="quiz_text">
 						<h2 className="title_2">{questionText}</h2>
 						
 						{!showResults && <ul className="quiz-list" id="list">
-							<li>
+							<li className="input__answer">
 								<label>
 									<input
 										type="radio"
-										className="answer"
+										className="input__radio"
 										name="answer"
 										value="1"
 										onChange={handleAnswerChange}
@@ -90,11 +120,11 @@ const Quiz = () => {
 									<span>Правда</span>
 								</label>
 							</li>
-							<li>
+							<li className="input__answer">
 								<label>
 									<input
 										type="radio"
-										className="answer"
+										className="input__radio"
 										name="answer"
 										value="0"
 										onChange={handleAnswerChange}
@@ -105,13 +135,13 @@ const Quiz = () => {
 							</li>
 						</ul>}
 						
-						{!showResults && <button className="quiz-submit submit" id="submit"
-						                         onClick={handleSubmit}>
-							Ответить
-						</button>}
 						
-						{showResults && <p>Text --> {questionText}</p>}
+						{showResults && <p>Text: {questionText}</p>}
 					</div>
+					{!showResults && <button className="quiz-submit" id="submit"
+					                         onClick={handleSubmit}>
+						Ответить
+					</button>}
 				</div>
 			</div>
 		</section>

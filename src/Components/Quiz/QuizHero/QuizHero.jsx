@@ -1,6 +1,7 @@
 import './QuizHero.css';
 
 const QuizHero = () => {
+	
 	return (
 		<main>
 			<div className="container">

@@ -13,7 +13,6 @@ function App() {
 					<Route path="/quiz" element={<Quiz/>}/>
 					<Route path='/quiz/easy' element={<EasyQuiz />} />
 					
-					
 					<Route path="/*" element={<h1 style={{textAlign: 'center'}}>Страница не найдена</h1>}/>
 				</Routes>
 			</>

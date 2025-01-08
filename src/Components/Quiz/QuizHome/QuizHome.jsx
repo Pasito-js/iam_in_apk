@@ -4,9 +4,11 @@ import QuizHero from '../QuizHero/QuizHero.jsx';
 import QuizFooter from '../QuizFooter/QuizFooter.jsx';
 
 const QuizHome = () => {
+	
+	
 	return (
 		<div id='quiz'>
-			<QuizHeader show={true} />
+			<QuizHeader />
 			<QuizHero />
 			<QuizFooter />
 		</div>

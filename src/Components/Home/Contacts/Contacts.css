@@ -56,9 +56,9 @@
 			background: #000;
 			border-radius: 25px;
 			color: #fff;
-			padding: 20px 200px;
+			font-size: 19px;
 			cursor: pointer;
-			transition: all 0.3s ease-in-out;
+			transition: transform 0.3s ease-in-out;
 		}
 
 		button:hover {

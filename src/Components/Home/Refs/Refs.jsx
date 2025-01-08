@@ -30,6 +30,7 @@ const Refs = () => {
 							previewImg={'/quiz.png'}
 							bg={'#F3F3F3'}
 							arr={'/black_arrow.png'}
+							href='/quiz'
 						/>
 					</li>
 					<li data-aos="fade-left">
@@ -40,6 +41,7 @@ const Refs = () => {
 							previewImg={'/AgroCulture_IMG/cart_with_food.png'}
 							bg={'wheat'}
 							arr={'/white_arrow.png'}
+							href={'/asd'}
 						/>
 					</li>
 					<li data-aos="fade-right">
@@ -50,6 +52,7 @@ const Refs = () => {
 							previewImg={'/AgroCulture_IMG/tractor.png'}
 							bg={'#B9FF66'}
 							arr={'/black_arrow.png'}
+							href={'https://vk.com/aogatchinskoe'}
 						/>
 					</li>
 					<li data-aos="fade-left">
@@ -60,6 +63,7 @@ const Refs = () => {
 							previewImg={'/demo.png'}
 							bg={'black'}
 							arr={'/white_arrow.png'}
+							href={'https://vk.com/bk.school'}
 						/>
 					</li>
 					

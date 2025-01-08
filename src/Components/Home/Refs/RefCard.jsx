@@ -1,6 +1,6 @@
 import './RefCard.css';
 
-const RefCard = ({title, previewImg, titleBg, textBg, bg, arr}) => {
+const RefCard = ({title, previewImg, titleBg, textBg, bg, arr, href}) => {
 	//TODO: реализовать на <a 'more_info'> возможность перейти на викторину при помощи Router
 	
 	
@@ -9,7 +9,7 @@ const RefCard = ({title, previewImg, titleBg, textBg, bg, arr}) => {
 			<div className="card" style={{background: bg}}>
 				<div className="text">
 					<h3 className='title-3' style={{background: titleBg}}>{title}</h3>
-					<a href="#" className="more_info" style={{color: textBg}}>
+					<a href={href} className="more_info" style={{color: textBg}}>
 						<img src={arr} alt=""/> Перейти
 					</a>
 				</div>
