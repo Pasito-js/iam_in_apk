@@ -1,0 +1,55 @@
+.profTest {
+	background: #f0f0f0;
+	margin: 0 auto;
+	width: 900px;
+	border-radius: 15px;
+
+	.title__prof {
+		font-size: 32px;
+		margin-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.input__answer {
+		display: flex;
+		margin-bottom: 15px;
+		border: 1px #c3c2c2 solid;
+		border-radius: 10px;
+		padding: 15px;
+		gap: 15px;
+		font-weight: 500;
+
+		transition: border 0.3s ease-in-out;
+	}
+
+	.input__answer:hover {
+		border: 1px #737272 solid;
+		cursor: pointer;
+	}
+
+	.profTest-submit {
+		padding: 20px;
+		border-radius: 15px;
+		border: 1px #c3c2c2 solid;
+		margin-bottom: 15px;
+
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.profTest-submit:hover {
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+
+	.final__text {
+		color: #000000;
+		font-size: 24px;
+	}
+
+	.results__prof {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}

@@ -1,17 +1,21 @@
 import './RefCard.css';
+import {Link, useNavigate} from 'react-router';
 
 const RefCard = ({title, previewImg, titleBg, textBg, bg, arr, href}) => {
-	//TODO: реализовать на <a 'more_info'> возможность перейти на викторину при помощи Router
+	const navigate = useNavigate();
 	
+	const toPage = () => {
+		navigate(href);
+	};
 	
 	return (
-		<div className="RefCard">
+		<div className="RefCard" onClick={toPage}>
 			<div className="card" style={{background: bg}}>
 				<div className="text">
 					<h3 className='title-3' style={{background: titleBg}}>{title}</h3>
-					<a href={href} className="more_info" style={{color: textBg}}>
+					<Link to={href} className="more_info" style={{color: textBg}}>
 						<img src={arr} alt=""/> Перейти
-					</a>
+					</Link>
 				</div>
 				<img className='preview-img' width={210} height={170} src={previewImg} alt="img"/>
 			</div>

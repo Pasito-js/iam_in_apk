@@ -41,7 +41,7 @@ const Refs = () => {
 							previewImg={'/AgroCulture_IMG/cart_with_food.png'}
 							bg={'wheat'}
 							arr={'/white_arrow.png'}
-							href={'/asd'}
+							href={'/prof'}
 						/>
 					</li>
 					<li data-aos="fade-right">

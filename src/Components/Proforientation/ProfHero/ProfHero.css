@@ -1,0 +1,32 @@
+
+
+.prof-title {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 60px;
+
+	p {
+		font-size: 18px;
+	}
+}
+
+.prof-hero {
+	display: flex;
+	align-items: center;
+	gap: 150px;
+
+
+	.prof__link {
+		padding: 20px;
+		background: #242e45;
+		color: #fff;
+		border-radius: 15px;
+
+		transition: all .5s ease-in-out;
+	}
+
+	.prof__link:hover {
+		transform: scale(1.1);
+	}
+}

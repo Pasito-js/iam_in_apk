@@ -1,4 +1,5 @@
 import './QuizHero.css';
+import {Link} from 'react-router';
 
 const QuizHero = () => {
 	
@@ -13,25 +14,25 @@ const QuizHero = () => {
 				</div>
 				
 				<div className="quiz-hero">
-					<img src="/logo.png" width={400} height={400} alt="example-quiz"/>
+					<img src="/quiz_prev.png" alt="example-quiz"/>
 					<ul className="quiz-button__list">
 						<li>
 							<h3 className='quiz__title-3'>Выберете сложность:</h3>
 						</li>
 						<li>
-							<a href='/quiz/easy' className="quiz-btn" style={{
+							<Link to='/quiz/easy' className="quiz-btn" style={{
 								backgroundColor: '#5ddc64'
-							}}>Легкий</a>
+							}}>Легкий</Link>
 						</li>
 						<li>
-							<a className="quiz-btn" style={{
+							<Link to='/quiz/med' className="quiz-btn" style={{
 								background: '#7e7edd'
-							}}>Средний</a>
+							}}>Средний</Link>
 						</li>
 						<li>
-							<a className="quiz-btn" style={{
+							<Link to='/quiz/hard' className="quiz-btn" style={{
 								background: '#f63434'
-							}}>Сложный</a>
+							}}>Сложный</Link>
 						</li>
 					</ul>
 				

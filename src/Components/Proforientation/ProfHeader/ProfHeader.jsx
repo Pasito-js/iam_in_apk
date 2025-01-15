@@ -1,4 +1,3 @@
-import './QuizHeader.css';
 import {Link, useNavigate} from 'react-router';
 
 const QuizHeader = () => {
@@ -17,7 +16,7 @@ const QuizHeader = () => {
 						<a onClick={goBack} className="quiz__link">Вернуться</a>
 					</li>
 					<li>
-						<Link className="quiz__link" to="/prof">Профориентация</Link>
+						<Link className="quiz__link" to="/quiz">Викторина</Link>
 					</li>
 				</ul>
 			

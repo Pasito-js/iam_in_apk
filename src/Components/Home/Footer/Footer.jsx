@@ -1,25 +1,17 @@
 import './Footer.css';
 import {FaTelegram, FaVk} from 'react-icons/fa6';
 import {Link} from 'react-scroll';
-import {useEffect} from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Footer = () => {
 	
-	useEffect(() => {
-		AOS.init({
-			duration: 1500,
-		})
-	}, [])
-	
 	return (
-		<footer data-aos="fade-up">
+		<footer>
 			<div className="container">
 				
 				<nav className="footer-header">
 					<ul className="logotype">
-						<img src="/logo.png" width={80} height={80} alt="Logotype"/>
+						<img src="/logo_2.png" width={80} height={80} alt="Logotype"/>
 						<Link className='refs__link-title' to="home" smooth={true} offset={-150} style={{cursor: 'pointer'}}
 						      duration={1000}>Я в АПК</Link>
 					</ul>

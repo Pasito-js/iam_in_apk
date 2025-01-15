@@ -22,7 +22,7 @@ const AboutUs = () => {
 						<SeoSpecialistCard
 						name="Константин Чичинюк"
 						job='Ученик, создание сайтов'
-						avatar='/logo.png'
+						avatar='/logo_2.png'
 						experience="Разработка сайтов, автор проекта..."
 						skills={['JavaScript', 'React', 'Router', ]}
 					/>
@@ -32,7 +32,7 @@ const AboutUs = () => {
 						<SeoSpecialistCard
 							name="Юлия Коваленко"
 							job='Учитель, куратор'
-							avatar='/logo.png'
+							avatar='/logo_2.png'
 							experience="Заслуженный педагог, правильное построение проекта"
 							skills={['ИПД', 'Наставник']}
 						/>
@@ -42,7 +42,7 @@ const AboutUs = () => {
 						<SeoSpecialistCard
 							name="Ольга Венедиктова"
 							job='Учитель информатики'
-							avatar='/logo.png'
+							avatar='/logo_2.png'
 							experience="Классный руководитель, помощь в создании сайта"
 							skills={['Информатика', 'Обратный feedback']}
 						/>

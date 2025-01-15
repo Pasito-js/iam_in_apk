@@ -11,8 +11,11 @@
 	margin: 0 auto 147px;
 	padding: 20px;
 
-	img {
+	.question__img {
 		margin-bottom: 50px;
+		width: 500px;
+		height: 300px;
+		border-radius: 20px;
 	}
 
 	.quiz_text {
@@ -75,9 +78,15 @@
 		margin-bottom: 15px;
 		text-align: center;
 	}
+
 }
 
-input[type="radio"] {
+.final__text {
+	color: #FFFFFF;
+	padding: 30px;
+}
+
+.input__radio {
 	appearance: none;
 	width: 16px;
 	height: 16px;
@@ -88,15 +97,15 @@ input[type="radio"] {
 
 }
 
-input[type="radio"]:checked {
+.input__radio:checked {
 	border-color: #4CAF50;
 }
 
-input[type="radio"]:hover {
+.input__radio:hover {
 	border-color: #4CAF50;
 }
 
-input[type="radio"]:checked::before {
+.input__radio:checked::before {
 	content: "";
 	display: block;
 	width: 9px;
